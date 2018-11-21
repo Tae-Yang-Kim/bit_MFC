@@ -119,10 +119,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="b.cpp" />
+    <ClCompile Include="Debug_New.cpp" />
+    <ClCompile Include="Debug_New.h" />
     <ClCompile Include="define.cpp" />
+    <ClCompile Include="THIS_FILE_ex.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="macro.h" />
+    <ClInclude Include="MyAfx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VectorCpp.inl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
