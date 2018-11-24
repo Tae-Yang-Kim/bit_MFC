@@ -1,6 +1,6 @@
 
 
-#if 0
+#if 1
 #include<windows.h>
 LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam) {
 	HDC hdc;
