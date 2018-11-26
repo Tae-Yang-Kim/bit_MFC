@@ -1,4 +1,4 @@
-#include <windows.h>
+#include <Windows.h>
 
 //Forward declaration------------------------------------------------
 LRESULT CALLBACK WndProc(HWND hwnd,UINT iMsg,WPARAM wParam,
@@ -73,6 +73,7 @@ char CObject::szAppName[]="HelloWin";
 
 //----------------------------------------------------------------
 // pointer declaration for upcase(subtype principle)
+//부모 클래스
 CObject* pCObject; 
 
 //class CView--------------------------------------------------------

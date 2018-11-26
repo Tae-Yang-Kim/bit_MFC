@@ -1,4 +1,4 @@
-#include <windows.h>
+#include <Windows.h>
 
 #define DECLARE_MESSAGE_MAP()          static MessageMap messageMap[];
 #define BEGIN_MESSAGE_MAP(class_name)  MessageMap class_name::messageMap[]={

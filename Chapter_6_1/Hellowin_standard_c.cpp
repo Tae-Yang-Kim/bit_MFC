@@ -1,4 +1,4 @@
-#include <windows.h>
+#include <Windows.h>
 
 LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam,
 	LPARAM lParam)
