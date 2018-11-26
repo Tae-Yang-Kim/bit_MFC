@@ -93,6 +93,10 @@ public:
     DECLARE_MESSAGE_MAP()
 };//class CView
 
+//#define DECLARE_MESSAGE_MAP()          static MessageMap messageMap[];
+//#define BEGIN_MESSAGE_MAP(class_name)  MessageMap class_name::messageMap[]={
+//#define END_MESSAGE_MAP()              {0,NULL}};
+
 // 3) next, you add your event handler message map, it's array of function pointer
 BEGIN_MESSAGE_MAP(CView)
     {WM_CREATE,&CView::OnCreate},
