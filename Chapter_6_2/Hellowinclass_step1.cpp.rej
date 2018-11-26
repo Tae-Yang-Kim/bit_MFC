@@ -1,0 +1,9 @@
+diff a/Chapter_6_2/Hellowinclass_step1.cpp b/Chapter_6_2/Hellowinclass_step1.cpp	(rejected hunks)
+@@ -4,6 +4,7 @@
+ LRESULT CALLBACK WndProc(HWND hwnd,UINT iMsg,WPARAM wParam,
+                          LPARAM lParam);
+ 
++//Ŭ���� ȭ
+ //Class definition---------------------------------------------------
+ class CApp {
+     static char szAppName[];
