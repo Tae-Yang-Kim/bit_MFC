@@ -138,5 +138,6 @@ int WINAPI WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,
     pCObject = &app;
     pCObject->InitInstance(hInstance,szCmdLine,iCmdShow);
     pCObject->Run();
+	pCObject->test();
     return pCObject->ExitInstance();
 }//WinMain

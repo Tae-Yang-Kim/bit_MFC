@@ -93,7 +93,7 @@ MessageMap CView::messageMap[]={
     {WM_CREATE,&CView::OnCreate},
     {WM_PAINT,&CView::OnDraw},
     {WM_DESTROY,&CView::OnDestroy},
-    {0,NULL}
+    {0,NULL}//탐색의 끝을 알리기 위해 사용
 };
 //}}END_MESSAGE_MAP
 
