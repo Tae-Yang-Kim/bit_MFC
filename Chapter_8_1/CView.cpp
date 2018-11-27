@@ -1,5 +1,6 @@
 #include"stdafx.h"
 #include"CView.h"
+#include"DC.h"
 #include<math.h>
 
 CView app;
@@ -36,16 +37,18 @@ LRESULT CView::OnDestory(WPARAM wParam, LPARAM lParam) {
 
 LRESULT CView::OnLButtonDown(WPARAM wParam, LPARAM lParam) {
 	int i;
-	hdc = GetDC(hwnd);
-
-	MoveToEx(hdc, 0, cyClient / 2, NULL);
-	LineTo(hdc, cxClient, cyClient / 2);
-
+	//hdc = GetDC(hwnd);
+	CDC dc(this);
+	dc.MoveToEx(0, cyClient / 2, NULL);
+	dc.LineTo(cxClient, cyClient / 2);
+	/*MoveToEx(hdc, cxClient / 2, 0, NULL);
+	LineTo(hdc, cxClient / 2, cyClient)*/;
 	for (i = 0; i < NUM; i++) {
 		pt[i].x = i * cxClient / NUM;
 		pt[i].y = (int)(cyClient / 2 * (1 - sin(TWOPI * i / NUM)));
 	}
-	Polyline(hdc, pt, NUM);
+	
+	dc.Polyline(pt, NUM);
 
 	ReleaseDC(hwnd, hdc);	
 	return 0L;

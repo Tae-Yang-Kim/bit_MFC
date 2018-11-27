@@ -19,6 +19,8 @@ static CVIewFunPointer fpCViewGlobal;
 
 class CView : public CObject {
 public:
+	CObject::hwnd;
+public:
 	PAINTSTRUCT ps;
 	POINT pt[NUM];
 	HDC hdc;

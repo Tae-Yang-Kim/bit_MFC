@@ -122,6 +122,8 @@
   <ItemGroup>
     <ClCompile Include="CObject.cpp" />
     <ClCompile Include="CView.cpp" />
+    <ClCompile Include="DC.cpp" />
+    <ClCompile Include="DC.h" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

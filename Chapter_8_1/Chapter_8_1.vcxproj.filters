@@ -35,5 +35,11 @@
     <ClCompile Include="CView.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="DC.h">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DC.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
