@@ -2,6 +2,10 @@
 #include "CView.h"
 #include "CObject.h"
 
+//CObject* CRuntimeClass::CreateObject() {
+//	return (*pfnCreateObject)();
+//}
+
 extern CView app;
 LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam) {
 	int i = 0;
