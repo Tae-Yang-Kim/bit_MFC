@@ -22,4 +22,15 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="3. use_virtual_func.cpp">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="4. member_fun_point_table.cpp">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="5. define_fp_table.cpp">
+      <Filter>소스 파일</Filter>
+    </None>
+  </ItemGroup>
 </Project>
