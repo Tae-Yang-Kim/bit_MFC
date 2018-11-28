@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="only_c_API.cpp">
+    <ClCompile Include="1_only_c_API.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2_use_class_API.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
