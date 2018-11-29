@@ -32,7 +32,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam,
 		//        LineTo(hdc,100,100);
 		//        ReleaseDC(hwnd, hdc);
 		//        Sleep(2000);
-		return 0;
+		//return 0;
 	case WM_DESTROY:
 		PostQuitMessage(0);
 		return 0;
