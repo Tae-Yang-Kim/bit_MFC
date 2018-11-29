@@ -109,7 +109,8 @@ int CWinApp::OnIdle() {
 	DeleteObject(hBrush[1]);
 	DeleteObject(hBrush[2]);
 
-	return FALSE;
+	//return FALSE;
+	return TRUE;
 }
 
 char CWinApp::szAppName[] = "HelloWin";

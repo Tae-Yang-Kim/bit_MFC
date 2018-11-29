@@ -15,27 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1_only_c_API.cpp">
+    <ClCompile Include="DynCreate.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2_use_class_API.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="3. use_virtual_func.cpp">
-      <Filter>소스 파일</Filter>
-    </None>
-    <None Include="4. member_fun_point_table.cpp">
-      <Filter>소스 파일</Filter>
-    </None>
-    <None Include="5. define_fp_table.cpp">
-      <Filter>소스 파일</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="StdAfx.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

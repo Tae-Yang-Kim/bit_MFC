@@ -32,5 +32,6 @@ void CView::OnLButtonDown() {
 
 	hdc = GetDC(GetSafeHwnd());
 	Ellipse(hdc, 0, 0, 300, 300);
+	Sleep(500);
 	ReleaseDC(GetSafeHwnd(), hdc);
 }
