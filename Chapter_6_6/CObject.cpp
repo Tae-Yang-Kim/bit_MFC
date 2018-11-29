@@ -34,6 +34,7 @@ void CObject::InitInstance(HINSTANCE hInstance,PSTR szCmdLine,
     ShowWindow(hwnd,iCmdShow);
     UpdateWindow(hwnd);
 }//CObject::InitInstance
+//CObject를 초기화 하는 멤버함수
 
 void CObject::Run() {
 	while (GetMessage(&msg,NULL,0,0)) {
@@ -41,9 +42,11 @@ void CObject::Run() {
         DispatchMessage(&msg);
     }//while
 }//CObject::Run
+//CObject를 실행
 
 WPARAM CObject::ExitInstance() {
     return msg.wParam;
 }//CObject::ExitInstance
+//CObject를 종료하는 멤버 함수
 
 char CObject::szAppName[] = "HelloWin";

@@ -1,9 +1,10 @@
-#include <windows.h>
+#include <Windows.h>
 
 //Forward declaration------------------------------------------------
 LRESULT CALLBACK WndProc(HWND hwnd,UINT iMsg,WPARAM wParam,
                          LPARAM lParam);
 
+//클래스 화
 //Class definition---------------------------------------------------
 class CApp {
     static char szAppName[];

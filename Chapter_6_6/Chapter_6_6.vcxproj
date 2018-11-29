@@ -123,7 +123,9 @@
     <ClCompile Include="DelegateEx.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="DelegateEx_2.cpp" />
+    <ClCompile Include="DelegateEx_2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Hellowinclass_step5.cpp" />
     <ClCompile Include="StdAfx.cpp" />
   </ItemGroup>

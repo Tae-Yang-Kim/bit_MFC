@@ -3,7 +3,9 @@
 #include "CView.h"
 
 CView app; // one global object
+//전역 변수로 CView클래스인 app인스턴스를 생성
 
+//사용자 정의 메시지 핸들러를 생성
 //{{AFX_MESSAGE
 BEGIN_MESSAGE_MAP(CView)
     {WM_CREATE,&CView::OnCreate},
@@ -13,10 +15,13 @@ BEGIN_MESSAGE_MAP(CView)
 END_MESSAGE_MAP()
 //}}AFX_MESSAGE
 
+//생성
 LRESULT CView::OnCreate(WPARAM wParam,LPARAM lParam) {
     return 0L;
 }//CView::OnCreate
 
+
+//그리는 클래스의 멤버함수를 정의
 LRESULT CView::OnDraw(WPARAM wParam,LPARAM lParam) {
     HDC         hdc;
     PAINTSTRUCT ps;

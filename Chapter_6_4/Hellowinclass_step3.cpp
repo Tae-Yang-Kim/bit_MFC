@@ -1,4 +1,4 @@
-#include <windows.h>
+#include <Windows.h>
 
 //Forward declaration------------------------------------------------
 LRESULT CALLBACK WndProc(HWND hwnd,UINT iMsg,WPARAM wParam,
@@ -70,11 +70,16 @@ WPARAM CObject::ExitInstance() {
 char CObject::szAppName[]="HelloWin";
 
 //class CView--------------------------------------------------------
+//int add(int a, int b)
+//int(*fp)(int, int)
+//typedef int(*FP)(int, int);
 class CView;
 typedef void (CView::*CViewFunPointer)();
 typedef struct tagMessageMap {
     UINT iMsg;
-    CViewFunPointer fp;
+	//void(CView::*fp)();
+	//멤버함수 포인터 선언
+	CViewFunPointer fp;
 } MessageMap;
 static CViewFunPointer fpCViewGlobal;
 //CView* pCView;
@@ -93,7 +98,7 @@ MessageMap CView::messageMap[]={
     {WM_CREATE,&CView::OnCreate},
     {WM_PAINT,&CView::OnDraw},
     {WM_DESTROY,&CView::OnDestroy},
-    {0,NULL}
+    {0,NULL}//탐색의 끝을 알리기 위해 사용
 };
 //}}END_MESSAGE_MAP
 

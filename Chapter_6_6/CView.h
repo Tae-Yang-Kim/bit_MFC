@@ -9,7 +9,7 @@
 class CView;
 
 typedef LRESULT (CView::*CViewFunPointer)(WPARAM,LPARAM);
-
+//메시지 맵을 제정의
 typedef struct tagMessageMap {
     UINT iMsg;
     CViewFunPointer fp;
