@@ -18,5 +18,11 @@
     <ClCompile Include="DynCreate_withMacro.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="type_info.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RTTI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
