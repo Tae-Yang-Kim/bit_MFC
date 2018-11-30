@@ -14,18 +14,4 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="DynCreate_withMacro.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-<<<<<<< HEAD
-=======
-    <ClCompile Include="type_info.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="RTTI.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
->>>>>>> b9436fd608cc93c7a7d2d62588a54e269a567bdf
-  </ItemGroup>
 </Project>
